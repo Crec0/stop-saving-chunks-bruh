@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "stop-saving-chunks-bruh",
+  "version": "${version}",
+  "name": "stop-saving-chunks-bruh",
+  "description": "Stop saving 20 chunks per tick by mojan :)",
+  "authors": [
+    "Crec0"
+  ],
+  "contact": {
+    "repo": "https:/github.com/Crec0/stop-saving-chunks-bruh"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "stop.saving.chunks.bruh.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.18.1"
+  }
+}
